@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding:0;
+} 
+
+body {
+    height: 300vh; /* Example height to allow scrolling */
+    font-family: "Audiowide", sans-serif;
+}
+
+canvas {
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav{
+    color: white;
+    position: relative;
+    padding-left: 80px;
+    padding-top: 50px;
+    z-index: 2;
+
+
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    font-size: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed; /* Not moved by scroll */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+footer {
+    background-color: #1f1f26;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer p {
+    font-size: 14px;
+    padding: 20px;
+}
